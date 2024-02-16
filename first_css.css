@@ -1,0 +1,19 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: darkblue;
+  margin-left: 10px;
+}
+p {
+  text-align: center;
+  color: yellow;
+}
+.crapsButton {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  border-radius: 12px;
+  border-color: rebeccapurple;
+}
