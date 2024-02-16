@@ -29,12 +29,12 @@ property: value;
 <link rel="stylesheet" href="main.css">*/
 
 body {
-    background-color: white;
-    color: black;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 h2 {
-    color: black;
+    color: #000000;
 }
 
 nav {
