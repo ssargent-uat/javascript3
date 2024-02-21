@@ -8,12 +8,12 @@ h1 {
 }
 p {
   text-align: center;
-  color: yellow;
+  color: rgb(255, 30, 0);
 }
 .crapsButton {
   width: 150px;
   height: 30px;
   background-color: white;
   border-radius: 12px;
-  border-color: rebeccapurple;
+  border-color: rgb(51, 61, 153);
 }
