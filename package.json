@@ -1,0 +1,22 @@
+{
+  "name": "javascript3",
+  "version": "1.0.0",
+  "description": "uat programming course work",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssargent-uat/javascript3.git"
+  },
+  "keywords": [
+    "javascript3"
+  ],
+  "author": "Stephen Sargent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssargent-uat/javascript3/issues"
+  },
+  "homepage": "https://github.com/ssargent-uat/javascript3#readme"
+}
