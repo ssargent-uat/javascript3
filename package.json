@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ssargent-uat/javascript3/issues"
   },
-  "homepage": "https://github.com/ssargent-uat/javascript3#readme"
+  "homepage": "https://github.com/ssargent-uat/javascript3#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
