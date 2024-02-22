@@ -1,3 +1,5 @@
+// 6.2 Writing Your Own Functions
+//
 //Module_main ()
     //  Local Variables
 //    Declare Integer firstAge, secondAge, total
@@ -18,7 +20,7 @@
     // The sum function accepts two integer arguments and
     // returns the sum of those arguments as an integer.
 //Function Integer sum(Integer num1, Integer num2)
-//    Declare Integer resullt
+//    Declare Integer result
 //    Set result = num1 + num2
 //    Return result
 //End Function
@@ -42,9 +44,9 @@ Module_main ()
         Set total = sum(firstAge, secondAge)
         Display "Together you are  ", total, - " years old."
     End Module 
-    
+    // Return sum of Integers
     Function Integer sum(Integer num1, Integer num2)
-        Declare Integer resullt
+        Declare Integer result
         Set result = num1 + num2
         Return result
     End Function
