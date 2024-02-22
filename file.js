@@ -59,9 +59,24 @@ let result = add(3,4);
 console.log(result);
 
 // Scope - local, global
+let globalVasr = "I am global";
 
 function exampleFunction(){
     let localVar = "I am local";
-    console.log(localVar);
+    //console.log(localVar);
 }
+console.log(localVar);
 exampleFunction()
+
+//Types - Built in, User defined
+console.log(Math.random()); //0,1
+
+//Range (0, 1) - 1, 5 - (1,5)
+function generateRandomNumber(){
+    return (Math.random()*5)+1
+}
+
+let randomnumberGenerated = generateRandomNumber();
+    console.log(randomnumberGenerated);
+
+    
