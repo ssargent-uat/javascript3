@@ -46,14 +46,22 @@ else if(dice1 == dice2 && dice1%dice2 == 0){
 
 
 // Functions
-function greeting(fname){
-    console.log("Hello" + fname);
+function greeting(fname, lname){
+    console.log("Hello" + "" + fname +" " + lname);
 }
-greeting("jael");
-greeting("Adam");
+greeting("jael", "Battana");
+greeting("Adam", "Smith");
 
 function add(a,b){
     return a+b;
 }
 let result = add(3,4);
 console.log(result);
+
+// Scope - local, global
+
+function exampleFunction(){
+    let localVar = "I am local";
+    console.log(localVar);
+}
+exampleFunction()
