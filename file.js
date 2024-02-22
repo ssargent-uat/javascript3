@@ -21,3 +21,9 @@ let hasExperience = true;
 let isEligible = age >= 18 && hasExperience;
 console.log(isEligible);
 
+// conditionals: if, if-else, if else if-else
+
+var ageOfPerson = 20;
+if(ageOfPerson >= 18){
+    console.log("You are andult!")
+}
