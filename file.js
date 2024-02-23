@@ -25,7 +25,7 @@ console.log(isEligible);
 
 var ageOfPerson = 20;
 if(ageOfPerson >= 18){
-    console.log("You are andult!")
+    console.log("You are an adult!")
 }
 
 
