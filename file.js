@@ -59,13 +59,13 @@ let result = add(3,4);
 console.log(result);
 
 // Scope - local, global
-let globalVasr = "I am global";
+let globalVar = "I am global";
 
 function exampleFunction(){
     let localVar = "I am local";
     //console.log(localVar);
 }
-console.log(localVar);
+console.log(globalVar);
 exampleFunction()
 
 //Types - Built in, User defined
