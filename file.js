@@ -77,6 +77,16 @@ function generateRandomNumber(){
 }
 
 let randomnumberGenerated = generateRandomNumber();
-    console.log(randomnumberGenerated);
+ //   console.log(randomnumberGenerated);
 
-    
+// user-defined: find the max of two numbers
+function maxOfTwoNumber(a,b){
+    if(a>b){
+        return a;
+
+    }
+    else{
+        return b
+    }
+}
+console.log(maxOfTwoNumbers(4,7));
