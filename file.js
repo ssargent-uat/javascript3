@@ -80,7 +80,7 @@ let randomnumberGenerated = generateRandomNumber();
  //   console.log(randomnumberGenerated);
 
 // user-defined: find the max of two numbers
-function maxOfTwoNumber(a,b){
+function maxOfTwoNumbers(a,b){
     if(a>b){
         return a;
 
