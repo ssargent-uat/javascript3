@@ -95,3 +95,62 @@ function maxOfTwoNumbers(a,b){
     }
 }
 console.log(maxOfTwoNumbers(4,7));
+
+//Variables - var, let, const
+
+//reassign and redeclare
+var x = 5; //integer
+var firstName = "Stephen" //string
+var status = true; //boolean
+
+var x = 6;
+var y = 4;
+var z = x+y;
+console.log("sum of x and y is:", z);
+
+var x = 2;
+console.log(x);
+
+//redfining variables for different results
+y = 7;
+x = 2;
+var z = x+y;
+console.log(y);
+console.log(x);
+console.log("sum of x and y is:", z);
+
+
+// let - reassign but not redeclare
+let fName = "Stephen ";
+let lName = "LaTe";
+console.log("My full name is"+ " "+ fName + "" + lName);
+
+lName = "SuperLaTe";
+console.log("My full name is"+ " "+ fName + "" + lName);
+
+//const - no reassign or redeclare
+const pi = 3.14;
+console.log(pi);
+
+//Operators 
+//Arithmatic
+
+var firstnum = 4;
+var secondnum = 5;
+console.log(firstnum + secondnum);
+console.log(firstnum - secondnum);
+console.log(firstnum * secondnum);
+console.log(firstnum / secondnum);
+console.log(firstnum % secondnum);
+console.log(--firstnum);
+
+//Assignment
+console.log(firstnum += secondnum);
+console.log(firstnum -= secondnum);
+
+//Comparison Operators - <, >, <=, >=, !=
+console.log(firstnum > secondnum);
+console.log(firstnum < secondnum);
+console.log(firstnum >= secondnum);
+console.log(firstnum >= secondnum);
+console.log(firstnum != secondnum);
