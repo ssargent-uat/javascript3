@@ -65,6 +65,11 @@ function exampleFunction(){
     let localVar = "I am local";
     //console.log(localVar);
 }
+
+ function executeFunction(){
+    document.getElementById('sample').innerHTML = "Stephen is, but he is catching up";
+}
+
 console.log(globalVar);
 exampleFunction()
 

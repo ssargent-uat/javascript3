@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>First HTML Document</title> 
-    <link rel="stylesheet" href="file.css">
+    <link rel="stylesheet" href="./file.css">
+    <script src="./file.js"></script>
+    <!-- <script>
+            function executeFunction(){
+    document.getElementById('sample').innerHTML = "Stephen is, but he is catching up";
+}
+    </script>-->
 </head>
 <body>
 
     <nav>
         <a href="https://www.uat.edu/">
-            <img src="uat-logo.png">
+            <img src="./uat-logo.png">
         </a>
         <a href="learn_js.html">Home</a>
         <a href="basic.html">Contact</a>
@@ -39,15 +45,22 @@
         </center>
     </h4>
 
-    <!--HTML and external CSS - ID's and classes-->
-    <!--<h1 id="sample">Heading 1</h1>
+    <!--HTML and external CSS - ID's and classes
+    <!--<h1 id="sample">Heading 1</h1>-->
     <h6>Heading 6</h6>
     <p class="introduction">This is a paragraph This is a paragraph This is a paragraph This is a paragraph</p>
 
     <!-- Javascript -->
     <h4> Demonstrating Javascript</h4>
-    <p id='sample'> My name is Stephen</p>
-    <button type="button" onclick="document.getElementById('sample').innerHTML = 'Hello Stephen'">Click Me</button>
+    <p id='sample'> Guess </p>
 
+        <button type="button" onclick="executeFunction()"> Whos Behind </button>
+
+    <!--<button type="button" onclick="document.getElementById('sample').innerHTML = 'Stephen is, but he is catching up'">Whos Behind</button>-->
+
+        <script>
+            window.alert("LateLateLATE");
+            console.log("SooooLate");
+            </script>
 </body>
 </html>
